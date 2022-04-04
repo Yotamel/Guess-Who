@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  background-color: #503f3f;
+  color: #e9e9e9;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: #353535;
+  text-align: center;
+  text-decoration: underline overline;
+  color: #e9e9e9;
+  font-size: 3em;
+  height: 400px;
+}
+
+header img{
+  height: 201px;
+  margin: 30px 20px 0 0;
+  
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: #503f3f;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal{
+  position: absolute;
+  display: none;
+  background-color: #313030;
+  padding: 12px;
+  color: rgb(236, 236, 236);
+  border-radius: 3px;
+  bottom:500px
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+.ending-form label{
+  font-weight: bold;
+}
+.ending-form input,label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.btn-start {
+  background-color: #c0625c;
+}
+.btn-yes {
+  background-color: #c0625c;
+}
+
+.btn-no {
+  background-color: #cf928d;
+}
+
+.btn-add-guess {
+  background-color: #c0625c;
+  width: 250px;
+  color: white;
+}
