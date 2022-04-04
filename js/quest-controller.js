@@ -51,7 +51,9 @@ function onUserResponse(ev, ans) {
       $('header img').attr('src','img/layout/wrong-guess.png')
       // TODO: hide and show new-quest section
       $('.quest').hide('fast')
+      onRestartGame()
       $('.new-quest').fadeIn('slow')
+      
     }
   } else {
     // TODO: update the lastRes global var
